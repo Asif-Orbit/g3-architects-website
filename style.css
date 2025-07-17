@@ -269,10 +269,13 @@ section {
     .feature-image-container {
         padding: 2%;
     }
+    .fact{
+        padding:4% ;
+    }
     .fact-badge{
         grid-template-columns: 1fr;
         gap: 3%;
-        align-items: center;
+        margin-left: 10%;
     }
 }
 
