@@ -217,6 +217,28 @@ section {
     font-weight: 500;
 }
 
+/* some facts style  */
+.fact-content{
+    max-width: 542px;
+}
+
+
+.fact-badge{
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    justify-content: space-around;
+    padding: 5%;
+
+}
+.fact-badge-content{
+    max-width: 241px;
+    align-items: center;
+    border: 1px solid #FF900E;
+    border-radius: 8px;
+    padding: 45px 35px;
+}
+
+
 /* small device media query */
 
 @media screen and (max-width:576px) {
@@ -247,7 +269,11 @@ section {
     .feature-image-container {
         padding: 2%;
     }
-    
+    .fact-badge{
+        grid-template-columns: 1fr;
+        gap: 3%;
+        align-items: center;
+    }
 }
 
 
